@@ -15,9 +15,6 @@ keywords:
 sources:
   - https://github.com/bitnami/bitnami-docker-mediawiki
   - http://www.mediawiki.org/
-maintainers:
-  - name: Bitnami
-    email: containers@bitnami.com
 engine: gotpl
 annotations:
   category: Wiki
