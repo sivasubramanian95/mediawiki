@@ -25,4 +25,4 @@ Here Test deployment was done on k3s Civo Cloud.
 - To rollback to your previous release,
       `helm rollback <RELEASE> 0`
 - To Uninstall application,
-      `helm delelte<RELEASE>`
+      `helm delelte <RELEASE>`
