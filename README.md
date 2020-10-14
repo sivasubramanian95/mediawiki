@@ -12,17 +12,17 @@ Here Test deployment was done on k3s Civo Cloud.
 - Enter into the directory (cd mediawiki)
 - Make changes on the values.yaml file as per your requirement.
 - fetch the absolute_path for the current directory (pwd)
-- execute helm (helm install my-release absolute_path)
+- execute helm ``helm install my-release absolute_path``
 
-# For Next or further changes or release
+# For any New Feature
 
-Please use helm upgrade command for any feature.
-ex: helm upgrade my-release absolute_path
+- Please use `helm upgrade` command for any feature.
 
-You can view your releases using 
-   `helm ls` 
-To rollback to your previous release,
-    `helm rollback <RELEASE> 0`
+  ex: `helm upgrade my-release absolute_path`
 
-To Uninstall application,
-    ``helm delelte<RELEASE>``
+- You can view your releases using 
+      `helm ls` 
+- To rollback to your previous release,
+      `helm rollback <RELEASE> 0`
+- To Uninstall application,
+      `helm delelte<RELEASE>`
