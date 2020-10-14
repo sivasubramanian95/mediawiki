@@ -8,7 +8,7 @@ Here Test deployment was done on k3s Civo Cloud.
 - Nginx Ingress Controller installed (Traefik can also be used as civo k3s comes with traefik as default)
 
 # Deployment Procedure
-- pull the repo (git clone)
+- pull the repo using `git clonegit@github.com:sivasubramanian95/mediawiki.git`
 - Enter into the directory (cd mediawiki)
 - Make changes on the values.yaml file as per your requirement.
 - fetch the absolute_path for the current directory (pwd)
